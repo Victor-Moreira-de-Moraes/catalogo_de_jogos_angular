@@ -1,5 +1,8 @@
 # CatalogoJogosAngular
 
+Infelizmente obtive dificuldades aqui, criei o HTML e CSS das páginas, fiz a parte de type Script, mas não consegui linkar as duas para fazer a aplicação funcionar.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
 ## Development server
