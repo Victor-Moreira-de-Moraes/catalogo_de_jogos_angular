@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Listagem de Jogos</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Descrição</th>
+        <th>Data de Lançamento</th>
+        <th>Gênero(s)</th>
+        <th>Desenvolvedora</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let jogo of jogos">
+        <td>{{ jogo.titulo }}</td>
+        <td>{{ jogo.descricao }}</td>
+        <td>{{ jogo.dataLancamento }}</td>
+        <td>{{ jogo.generos.join(', ') }}</td>
+        <td>{{ jogo.desenvolvedora }}</td>
+        <td>
+          <button class="btn btn-danger" (click)="removerJogo(jogo)">Remover</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
